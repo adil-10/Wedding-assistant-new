@@ -1,0 +1,31 @@
+.Website-Logo {
+    position: absolute;
+    top: 0%;
+    right: 3%;
+    width: 200px;
+    height: 100px;
+}
+
+.HomePage-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Main-Container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.HomePage-Border {
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(146, 4, 4, 0.1);
+    padding: 500% 900%;
+    position: relative;
+}

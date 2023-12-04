@@ -1,0 +1,70 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Header-Container {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Title {
+    font-size: 2rem;
+    color: black;
+}
+
+.Input-Container {
+    margin-bottom: 150px;
+    padding: 0px 100px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Input-Container h2 {
+    padding-bottom: 50px;
+}
+
+.Input-Container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for input fields */
+.Input-Container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Style for input text */
+.Input-Container p {
+    padding-right: 10px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.Input-Container .Login-Button {
+    width: 80%;
+    padding: 10;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2px;
+}
+
+.Input-Container .Need-An-Account-Button {
+    margin-top: 7.5px;
+    width: 80%;
+    padding: 10;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.Input-Container button:hover {
+    background-color: rgb(237, 208, 208);
+}

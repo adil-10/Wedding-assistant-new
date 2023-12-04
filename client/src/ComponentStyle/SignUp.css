@@ -1,0 +1,15 @@
+.Input-Container .SignUp-Button {
+    width: 80%;
+    padding: 10;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Input-Container .Got-An-Account-Button {
+    margin-top: 7.5px;
+    width: 80%;
+    padding: 10;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
