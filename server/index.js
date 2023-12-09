@@ -3,6 +3,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 
 import { userRouter } from './routes/users.js'
+import { roomRouter } from "./routes/rooms.js";
 
 const app = express();
 
@@ -10,7 +11,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/auth", userRouter)
+app.use("/auth", userRouter, roomRouter)
 
 
 mongoose.connect("mongodb+srv://adilbadat3:Password123@wedding.a8tcxea.mongodb.net/wedding?retryWrites=true&w=majority",
